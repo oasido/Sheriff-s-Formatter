@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+/* body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+} */
+
+#logo {
+	content: url(/css/black_logo_s.png);
+	vertical-align: bottom;
+	text-decoration: none;
+}
+
+@media (max-width: 650px) {
+	#logo {
+		transform: scale(.8);
+		position: relative;
+		right: 50px;
+	}
+}
+
+@media (max-width: 595px) {
+	#logo {
+		transform: scale(.6);
+		position: relative;
+		right: 95px;
+	}
+}
+
+.navigation {
+	font-family: 'Alegreya Sans', sans-serif;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: .98;
+	overflow-x: hidden;
+	padding-top: 3.75rem;
+	transition: 0.6s;
+}
+
+.navigation .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	font-size: 30px;
+	z-index: 101;
+}
+
+.fixme {
+	min-width: 100%;
+}
+
+.navigation a {
+	display: block;
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: rgb(136, 136, 136);
+}
+
+div .navigation a i {
+	padding: 0.7rem;
+}
+
+.navigation_icon {
+	display: inline-block;
+	width: 1.8em;
+	padding: 1em 1.5em;
+}
+
+.navigation a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+
+.navigation .dropdown-item:hover{
+	color: rgb(31, 31, 31);
+	transition: 0.4s;
+}
+
+.slide a {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	font-size: 2rem;
+	text-decoration: none;
+	background-color: rgb(37, 37, 37);
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+.navigation-bar-circle {
+	border-radius: 5px;
+	background-color: rgb(37, 37, 37);
+	width: 20rem;
+	height: 12rem;
+	margin: 0 auto 1rem auto;
+	color: white;
+}
+
+.navigation-user {
+	size: 0.5rem;
+}
+
+.dropdown-header {
+	font-size: 1.2rem;
+	color: #111;
+}
+
+.dropdown-item {
+	color: #111;
+}
+
+.navbar {
+	max-width: 100%;
+	height: auto;
+}
+
+.slide {
+	display:inline;
+}
+
+@media (max-width: 950px) {
+	.mdcHide {
+		display: none;
+	}
+}
+
+.dropdown-container {
+  float:right;
+  height:60px;
+}
+
+
+.dropdown-toggle,
+.dropdown-menu {
+  width: 100%;
+  min-width: 0;
+}
+
+.content {
+	padding: 0 10rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+@media (max-width: 1400px) {
+	.content {
+		padding: 0;
+	}
+}
+
+/* index content */
+.indexContent {
+	padding: 0 1rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+@media (max-width: 1400px) {
+	.indexContent {
+		padding: 2rem;
+	}
+}
+
+
+
+
+

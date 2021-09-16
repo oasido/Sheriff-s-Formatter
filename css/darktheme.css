@@ -1,0 +1,504 @@
+.darkmode--activated {
+    color: #bebebe;
+    background-color: #222
+}
+
+.darkmode--activated .bg-darkmode-light {
+    background-color: #f8f9fa !important
+}
+
+.darkmode--activated pre {
+    color: #bebebe
+}
+
+.darkmode--activated img.icon,
+.darkmode--activated svg.icon {
+    filter: invert(1)
+}
+
+.darkmode--activated .table {
+    color: #bebebe;
+}
+
+.darkmode--activated .table-hover tbody tr:hover {
+    color: #bebebe
+}
+
+.darkmode--activated .list-group-item {
+    color: #bebebe;
+    background-color: #181818;
+    border-color: #404040
+}
+
+.darkmode--activated .list-group-item.list-group-item-action:focus,
+.darkmode--activated .list-group-item.list-group-item-action:hover {
+    background-color: #222
+}
+
+.darkmode--activated .list-group-item.active,
+.darkmode--activated .list-group-item.active:focus,
+.darkmode--activated .list-group-item.active:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.darkmode--activated .list-group-item-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.darkmode--activated .list-group-item-primary.list-group-item-action:focus,
+.darkmode--activated .list-group-item-primary.list-group-item-action:hover {
+    color: #fff;
+    background-color: #0069d9
+}
+
+.darkmode--activated .list-group-item-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d
+}
+
+.darkmode--activated .list-group-item-secondary.list-group-item-action:focus,
+.darkmode--activated .list-group-item-secondary.list-group-item-action:hover {
+    color: #fff;
+    background-color: #5a6268
+}
+
+.darkmode--activated .list-group-item-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745
+}
+
+.darkmode--activated .list-group-item-success.list-group-item-action:focus,
+.darkmode--activated .list-group-item-success.list-group-item-action:hover {
+    color: #fff;
+    background-color: #218838
+}
+
+.darkmode--activated .list-group-item-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545
+}
+
+.darkmode--activated .list-group-item-danger.list-group-item-action:focus,
+.darkmode--activated .list-group-item-danger.list-group-item-action:hover {
+    color: #fff;
+    background-color: #c82333
+}
+
+.darkmode--activated .list-group-item-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107
+}
+
+.darkmode--activated .list-group-item-warning.list-group-item-action:focus,
+.darkmode--activated .list-group-item-warning.list-group-item-action:hover {
+    color: #212529;
+    background-color: #e0a800
+}
+
+.darkmode--activated .list-group-item-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8
+}
+
+.darkmode--activated .list-group-item-info.list-group-item-action:focus,
+.darkmode--activated .list-group-item-info.list-group-item-action:hover {
+    color: #fff;
+    background-color: #138496
+}
+
+.darkmode--activated .list-group-item-light {
+    color: #212529;
+    background-color: #6c757d;
+    border-color: #6c757d
+}
+
+.darkmode--activated .list-group-item-light.list-group-item-action:focus,
+.darkmode--activated .list-group-item-light.list-group-item-action:hover {
+    color: #212529;
+    background-color: #e2e6ea
+}
+
+.darkmode--activated .list-group-item-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40
+}
+
+.darkmode--activated .list-group-item-dark.list-group-item-action:focus,
+.darkmode--activated .list-group-item-dark.list-group-item-action:hover {
+    color: #fff;
+    background-color: #23272b
+}
+
+.darkmode--activated .dropdown-menu {
+    background-color: #171717;
+    border-color: #404040
+}
+
+.darkmode--activated .dropdown-item:not(:disabled):not(.disabled) {
+    color: #bebebe
+}
+
+.darkmode--activated .dropdown-item:focus,
+.darkmode--activated .dropdown-item:hover {
+    background-color: #242424
+}
+
+.darkmode--activated .dropdown-divider {
+    border-top-color: #404040
+}
+
+.darkmode--activated .jumbotron {
+    color: #bebebe;
+    background-color: #181818;
+    border-color: #404040
+}
+
+.darkmode--activated .card {
+    color: #bebebe;
+    background-color: #181818;
+    border-color: #404040
+}
+
+.darkmode--activated .card-header,
+.darkmode--activated .card-footer {
+    color: #bebebe;
+    background-color: #202020;
+    border-top-color: #404040;
+    border-bottom-color: #404040
+}
+
+.darkmode--activated .form-control {
+    color: #bebebe;
+    background-color: #171717;
+    border-color: #404040
+}
+
+.darkmode--activated .form-control-plaintext {
+    color: #bebebe
+}
+
+.darkmode--activated .custom-select {
+    color: #bebebe;
+    background-color: #171717;
+    border-color: #404040;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+}
+
+.darkmode--activated .custom-file-label {
+    color: #bebebe;
+    background-color: #171717;
+    border-color: #404040
+}
+
+.darkmode--activated .custom-file-label:after {
+    color: #bebebe;
+    background-color: #202020
+}
+
+.darkmode--activated .input-group-text {
+    color: #bebebe;
+    background-color: #202020;
+    border-color: #404040
+}
+
+.darkmode--activated .page-item .page-link {
+    border-color: #404040
+}
+
+.darkmode--activated .page-item.disabled .page-link {
+    background-color: #171717;
+    color: #bebebe
+}
+
+.darkmode--activated .page-item:not(.active) .page-link {
+    background-color: #171717
+}
+
+.darkmode--activated .page-item:not(.active) .page-link:hover {
+    background-color: #242424
+}
+
+.darkmode--activated .breadcrumb {
+    background-color: #171717;
+    border-color: #404040
+}
+
+.darkmode--activated .nav-tabs {
+    border-bottom-color: #404040
+}
+
+.darkmode--activated .nav-tabs .nav-link:focus,
+.darkmode--activated .nav-tabs .nav-link:hover {
+    background-color: #242424;
+    border-color: #404040
+}
+
+.darkmode--activated .nav-tabs .nav-item.show .nav-link,
+.darkmode--activated .nav-tabs .nav-link.active {
+    color: #bebebe;
+    background-color: #222;
+    border-color: #404040;
+    border-bottom-color: #222
+}
+
+.darkmode--activated .nav-tabs.card-header-tabs .nav-item.show .nav-link,
+.darkmode--activated .nav-tabs.card-header-tabs .nav-link.active {
+    background-color: #181818;
+    border-bottom-color: #181818
+}
+
+.darkmode--activated .popover {
+    background-color: #222;
+    border-color: #404040
+}
+
+.darkmode--activated .popover-body {
+    color: #bebebe
+}
+
+.darkmode--activated .popover-header {
+    background-color: #202020;
+    border-bottom-color: #404040
+}
+
+.darkmode--activated .bs-popover-top>.arrow::before,
+.darkmode--activated .bs-popover-auto[x-placement^=top]>.arrow::before {
+    border-top-color: #404040
+}
+
+.darkmode--activated .bs-popover-top>.arrow::after,
+.darkmode--activated .bs-popover-auto[x-placement^=top]>.arrow::after {
+    border-top-color: #222
+}
+
+.darkmode--activated .bs-popover-right>.arrow::before,
+.darkmode--activated .bs-popover-auto[x-placement^=right]>.arrow::before {
+    border-right-color: #404040
+}
+
+.darkmode--activated .bs-popover-right>.arrow::after,
+.darkmode--activated .bs-popover-auto[x-placement^=right]>.arrow::after {
+    border-right-color: #222
+}
+
+.darkmode--activated .bs-popover-bottom>.arrow::before,
+.darkmode--activated .bs-popover-auto[x-placement^=bottom]>.arrow::before {
+    border-bottom-color: #404040
+}
+
+.darkmode--activated .bs-popover-bottom>.arrow::after,
+.darkmode--activated .bs-popover-auto[x-placement^=bottom]>.arrow::after {
+    border-bottom-color: #222
+}
+
+.darkmode--activated .bs-popover-left>.arrow::before,
+.darkmode--activated .bs-popover-auto[x-placement^=left]>.arrow::before {
+    border-left-color: #404040
+}
+
+.darkmode--activated .bs-popover-left>.arrow::after,
+.darkmode--activated .bs-popover-auto[x-placement^=left]>.arrow::after {
+    border-left-color: #222
+}
+
+.darkmode--activated .progress {
+    background-color: #171717;
+    border-color: #404040
+}
+
+.darkmode--activated .close {
+    color: #bebebe;
+    opacity: 1
+}
+
+.darkmode--activated .modal-header,
+.darkmode--activated .modal-footer {
+    color: #bebebe;
+    background-color: #202020;
+    border-bottom-color: #404040;
+    border-top-color: #404040
+}
+
+.darkmode--activated .modal-content {
+    color: #bebebe;
+    background-color: #222;
+    border-color: #404040
+}
+/* end of potato file */
+
+/* related to the navigation bar search button */
+.darkmode--activated .btn-light {
+    color: #000000;
+    background-color: rgb(92, 100, 107);
+    border-color: rgb(92, 100, 107);
+}
+
+/* related to index boxes */
+.darkmode--activated .indexCenterText, .darkmode--activated .indexApprovedUsersText {
+    color: #c7c7c7;
+    background-color: rgb(55, 56, 56);
+    border-color: rgb(115, 119, 122);
+}
+
+/* related to the index/table hrefs */
+.darkmode--activated .card-header a {
+    color: #65afff;
+}
+
+.darkmode--activated li a {
+    color: #65afff;
+}
+
+.darkmode--activated td a {
+    color: #65afff;
+}
+
+.darkmode--activated li a span {
+    color: #d3d3d3;
+}
+
+
+/* related to DORs */
+.darkmode--activated .tab-content {
+    color: #ffffff;
+    background-color: rgb(39, 39, 39);
+    border-color: rgb(115, 119, 122);
+}
+
+/* related to settings page */
+.darkmode--activated h2 {
+    color: white;
+}
+
+.darkmode--activated form strong {
+    color: white;
+}
+
+/* related to every form with a generate/table remove buttons */
+.darkmode--activated .btn-success {
+    color: #ffffff;
+    background-color: #28a7466e;
+    border-color: #28a7466e;
+}
+
+.darkmode--activated .btn-danger {
+    color: #ffffff;
+    background-color: #dc354678;
+    border-color: #dc354678;
+}
+
+/* related to correspondence letter */
+.darkmode--activated .bbcode-textarea, .darkmode--activated .bbcode-preview {
+    color: #ffffff;
+    background-color: rgb(39, 39, 39);
+    border-color: rgb(115, 119, 122);
+}
+
+.darkmode--activated input, .darkmode--activated select {
+    color: white;
+    background-color: #171717;
+    border-color: #404040;
+}
+
+/* table stuff */
+.darkmode--activated label, .darkmode--activated #users_table_info {
+    color: white;
+}
+
+.darkmode--activated table tbody {
+    color: white;
+    background-color: #171717;
+}
+
+.darkmode--activated table thead {
+    background-color: #171717;
+}
+
+.darkmode--activated tbody tr .even, .darkmode--activated  .even td { 
+    background-color: rgb(39, 39, 39);
+}
+
+.darkmode--activated tbody tr .odd, .darkmode--activated  .odd td { 
+    background-color: rgba(39, 39, 39, 0.918);
+}
+
+/* alert danger */
+.darkmode--activated .alert-danger {
+    color: #721c24;
+    background-color: #f8d7dac9;
+    border-color: #f5c6cb;
+}
+
+.darkmode--activated .alert-danger hr {
+    border-color: rgba(0, 0, 0, 0.226);
+}
+
+.darkmode--activated span .current {
+    background: linear-gradient(to bottom, #222222 0%, #222222 100%) !important;
+    color: white !important;
+}
+
+/* alert warning */
+.darkmode--activated .alert-warning {
+    color: #6d5204;
+    background-color: #fff3cdbe;
+    border-color: #fff3cdbe;
+}
+
+/* input checkbox color fix */
+.darkmode--activated input[type="checkbox"] + label {
+    background-color: rgb(39, 39, 39);
+}
+
+/* navigation bar hamburger menu */
+.darkmode--activated .slide a {
+    background-color: rgb(218, 218, 218);
+    color: rgb(29, 29, 29);
+}
+
+.darkmode-layer, .darkmode-toggle {
+    z-index: 999;
+}
+
+.darkmode--activated #logo {
+	content: url(/css/white_logo_s.png);
+}
+
+.darkmode--activated .dropdown-header {
+    color: #fff;
+}
+
+.darkmode--activated .features-boxed .item .box {
+    background-color: #444444;
+    color:rgb(212, 212, 212);
+}
+
+.darkmode--activated .features-boxed .item .description {
+    color:rgb(212, 212, 212);
+}
+
+.darkmode--activated .column span {
+    color: #c7c7c7;
+}
+
+.darkmode--activated .signature span {
+    color: #c7c7c7;
+}
+
+.darkmode--activated .disabled {
+    background-color: #2c2c2c;
+}
+
+.darkmode--activated .table td, .table th {
+    border-top: 1px solid rgb(46, 46, 46);
+}
