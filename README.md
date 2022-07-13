@@ -11,6 +11,9 @@ But hey, it works!
 
 #### Demo:
 [Click here](http://formatter.ofekasido.xyz/) to check out the demo.
+
+[Click here](https://www.youtube.com/watch?v=TD2gF1AjJQg) to check out a short demo video.
+
 Use the following login credentials to access the site:
 
 **Username:** `testuser`
